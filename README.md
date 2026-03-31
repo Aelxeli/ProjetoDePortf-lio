@@ -1,2 +1,5 @@
-# ProjetoDePortf-lio
-Um projeto inicial em landing page com css &amp; js 
+🚧 Projeto em desenvolvimento
+
+Portfólio pessoal focado em tecnologia e design moderno.
+
+📌 Status: Em progresso
