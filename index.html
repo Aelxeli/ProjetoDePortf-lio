@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech no dia-dia | Web</title>
+    <link rel="icon" href="Icon/iconsite.ico.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fontes  -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <!-- Matrix Transition Overlay -->
+    <div id="matrix-overlay">
+        <canvas id="matrix-canvas"></canvas>
+    </div>
+
+    <!-- Neural Network Background Animation -->
+    <canvas id="neural-canvas"></canvas>
+    
+    <!--Efeito do cursor brilhante-->>
+    <div id="cursor-glow"></div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <span class="text-blue">TECH</span>NO DIA DIA
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bio">Sobre</a></li>
+                <li><a href="#tech">Tecnologias</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Menu -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="glitch-text crypto-text" data-text="TECNOLOGIA NO DIA DIA">TECNOLOGIA NO DIA DIA</h1>
+                    <p class="subtitle">Aquilo que te poupa tempo também está aprendendo a te substituir — silenciosamente, enquanto você chama de rotina.</p>
+                    <div class="cta-buttons">
+                        <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contato" class="btn btn-outline">Contrate-me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="background-grid"></div>
+        </section>
+
+        <!-- Biography Section -->
+        <section id="bio" class="biography">
+            <div class="container grid">
+                <div class="bio-text">
+                    <h2 class="section-title"><span class="text-blue">_</span>Sobre Mim</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+                <div class="bio-visual">
+                    <div class="image-3d-container">
+                        <div class="image-frame tilt-element">
+                            <img src="images/tech.jpg" alt="Tecnologia" class="bio-image">
+                            <div class="glass-overlay"></div>
+                            <div class="decorative-box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TecnoLÓGIAkkkk / Skills -->
+        <section id="tech" class="skills">
+            <div class="container">
+                <h2 class="section-title text-center">Stack de <span class="text-blue">Tecnologia</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="icon">⚡</div>
+                        <h3>Frontend</h3>
+                        <p>Desenvolvimento de interfaces modernas e responsivas utilizando HTML, CSS e JavaScript, com foco em performance e experiência do usuário.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">🛡️</div>
+                        <h3>Backend</h3>
+                        <p>Desenvolvimento de servidores e APIs utilizando linguagens como Python, Node.js e Java, com foco em escalabilidade e manutenibilidade.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">☁️</div>
+                        <h3>Cloud Computing</h3>
+                        <p>Desenvolvimento de soluções na nuvem utilizando plataformas como AWS, Azure e Google Cloud, com foco em confiabilidade e desempenho.</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="icon">🤖</div>
+                        <h3>IA & Dados</h3>
+                        <p>Desenvolvimento de modelos de inteligência artificial e análise de dados utilizando tecnologias como TensorFlow, PyTorch e Pandas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Showcase -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title"><span class="text-blue">_</span>Meus Projetos</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h3>Project Alpha</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                        </div>
+                        <div class="project-preview"></div>
+                    </div>
+                    <div class="project-item reverse">
+                        <div class="project-info">
+                            <h3>Neural Core</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                        </div>
+                        <div class="project-preview"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="profile-section">
+                <div class="profile-photo-container">
+                    <img src="images/me.jpg" alt="Eliel Alexsander" class="profile-photo" loading="lazy">
+                </div>
+                <div class="profile-info">
+                    <h3>Eliel Alexsander</h3>
+                    <p>Desenvolvedor Fullstack focado em criar experiências digitais de alto impacto e performance.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechLore. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/eliel-alexsander-4982071bb/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Aelxeli" target="_blank">GitHub</a>
+                    <a href="https://www.instagram.com/aelxeli/" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
